@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="prefs_coord_keys">
+        <item>Gradu dezimalak</item>
+        <item>Graduak, minutuak</item>
+        <item>Graduak, minutuak, segundoak</item>
+        <item>MGRS</item>
+        <item>UTM</item>
+    </string-array>
+    <string-array name="prefs_coord_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="prefs_freq_keys">
+        <item>Etengabe</item>
+        <item>Egunean behin</item>
+        <item>2 egunean behin</item>
+        <item>3 egunean behin</item>
+        <item>4 egunean behin</item>
+        <item>5 egunean behin</item>
+        <item>6 egunean behin</item>
+        <item>Astean behin</item>
+    </string-array>
+    <string-array name="prefs_freq_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="prefs_wifi_sort_keys">
+        <item>BSSID arabera</item>
+        <item>Izenaren arabera</item>
+        <item>Kanalaren arabera</item>
+        <item>Seinale-indarraren arabera</item>
+    </string-array>
+    <string-array name="prefs_wifi_sort_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string name="about_caption">Kokapen-, sentsore- eta sare-egoera</string>
+    <string name="about_text">&lt;p>
+		Zerbait ez badabil behar bezala edo aplikazio hau are hobea egiteko ideiarik baduzu,
+		eman horren berri hemen:
+        &lt;br/>
+        &lt;a href="https://gitlab.com/mvglasow/satstat/issues>https://gitlab.com/mvglasow/satstat/issues&lt;/a>
+        &lt;/p>&lt;p>
+        Copyright © 2013 – 2023 Michael von Glasow eta laguntzaileak
+        &lt;br/>
+        Portions © Jonathan Stott, k9mail, mapsforge.org, Polidea
+        &lt;/p>&lt;p>
+		Programa hau software librea da: GNUren Lizentzia Publiko Orokorraren arabera
+		birbanatu edota alda dezakezu, Software Librearen Fundazioak argitaratu bezala,
+		dela Lizentziaren 3. bertsioa, dela geroagoko edozein bertsio.
+        &lt;/p>&lt;p>
+		Programa hau baliagarria izango den itxaropenarekin banatzen da,
+		baina BERMERIK GABE; MERKATURAGARRITASUNA edo HELBURU PARTIKULAR BATERAKO
+		GAITASUN berme inpliziturik gabe.
+		Ikusi GNUren Lizentzia Publiko Orokorra xehetasun gehiagorako.
+        &lt;/p>&lt;p>
+		GNUren Lizentzia Publiko Orokorraren kopia bat jaso behar izan duzu
+		programa honekin batera. Bestela, ikusi
+        &lt;a href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses/&lt;/a>.
+        &lt;/p>&lt;p>
+		Mapa MapQuest, 
+        &lt;a href="http://www.openstreetmap.org/copyright">OpenStreetMap&lt;/a> 
+        eta kolaboratzaileek, 
+        &lt;a href="http://wiki.openstreetmap.org/wiki/Legal_FAQ#3a._I_would_like_to_use_OpenStreetMap_maps._How_should_I_credit_you.3F">ODbL&lt;/a>
+		emandako datuekin osatu da.
+        &lt;/p>&lt;p>
+        Aplikazio honen iturburu-kodea hemen dago:
+        &lt;br/>
+        &lt;a href="https://gitlab.com/mvglasow/satstat>https://gitlab.com/mvglasow/satstat&lt;/a></string>
+    <string name="about_version">Bertsioa</string>
+    <string name="action_about">Honi buruz</string>
+    <string name="action_agps">Eguneratu AGPS datuak</string>
+    <string name="action_cancel">Utzi</string>
+    <string name="action_legend">Legenda</string>
+    <string name="action_no">Ez</string>
+    <string name="action_ok">ADOS</string>
+    <string name="action_record">Grabatu</string>
+    <string name="action_settings">Ezarpenak</string>
+    <string name="action_stop_record">Gelditu grabaketa</string>
+    <string name="action_yes">Bai</string>
+    <string name="app_name">SatStat</string>
+    <string name="confirm_download">Badirudi mapa honen bertsio eguneratu bat daukazula dagoeneko. Edonola ere deskargatu nahi duzu?</string>
+    <string name="download_error">Errorea gertatu da zerbitzariko mapen zerrenda berreskuratzen saiatzean</string>
+    <string name="download_retry">Saiatu berriro</string>
+    <string name="error_ext_storage">Kanpoko biltegiratzea ez dago eskuragarri</string>
+    <string name="error_write_file">Errorrea fitxategian idaztean</string>
+    <string name="info_start_rec">Grabatzen hasi da</string>
+    <string name="map_path_cm_filemanager">CM fitxategi arakatzailea</string>
+    <string name="map_path_fileman">Karpeta hautatu ahal izateko onartutako fitxategi arakatzaile bat instalatu behar duzu.</string>
+    <string name="map_path_oi_filemanager">OI fitxategi arakatzailea</string>
+    <string name="map_path_title">Lineaz kanpoko mapentzat karpetaren bidea:</string>
+    <string name="notify_nolocation_body">Ukitu egoera ikusteko</string>
+    <string name="notify_nolocation_title">Kokapenaren bila</string>
+    <string name="notify_perm_body">Ukitu baimendu edo ukatzeko</string>
+    <string name="notify_perm_title">SatStat baimenak eskatzen ari da</string>
+    <string name="notify_record_body">Ukitu grabaketa gelditzeko</string>
+    <string name="notify_record_title">Datuak grabatzen</string>
+    <string name="osm_attribution" translatable="false">© OpenStreetMap contributors</string>
+    <string name="pref_agps">AGPS datuen eguneraketa</string>
+    <string name="pref_cid">Banandu UMTS/LTE gailuaren IDak</string>
+    <string name="pref_cid2">Erakutsi gailu ID formatu biak</string>
+    <string name="pref_cid2_summary">Erakutsi banandutako eta banandu gabeko formak, goian hautatutakoa lehenengo agertuko dela</string>
+    <string name="pref_cid_summary">Banandu gailuaren IDak RNCID/CID edo eNodeB/sector ID artean</string>
+    <string name="pref_coord">Koordenatuak</string>
+    <string name="pref_data">Datuen bistaratzea</string>
+    <string name="pref_freq">Eguneratze-tartea</string>
+    <string name="pref_knots">Erakutsi abiadura korapilotan</string>
+    <string name="pref_knots_summary">Desmarkatuta badago, unitate metriko edo Inperialak (goian markatutakoaren arabera) erabiliko dira</string>
+    <string name="pref_lastupdate">Azken eguneraketa</string>
+    <string name="pref_lastupdate_summary">%1$tY-%1$tm-%1$td %1$tH:%1$tM:%1$tS</string>
+    <string name="pref_loc_prov">Kokapen-iturburuak</string>
+    <string name="pref_loc_prov_summary">Erakutsi mapan hautatutako kokapen-iturburuak</string>
+    <string name="pref_map">Mapa</string>
+    <string name="pref_map_download">Deskargatu lineaz kanpoko mapa</string>
+    <string name="pref_map_download_summary">Eskuratu mapak Mapsforge-etik</string>
+    <string name="pref_map_offline">Erabili lineaz kanpoko mapa</string>
+    <string name="pref_map_offline_summary">Mapak gailuan errendatu (lineaz kanpoko maparen bat deskargatu behar da)</string>
+    <string name="pref_map_path">Lineaz kanpoko mapentzat karpeta</string>
+    <string name="pref_map_purge">Garbitu maparen lauza-cachea</string>
+    <string name="pref_map_purge_summary">Behartu lauza guztiak berriro deskargatu edo errendatzea, arazoak konpontzeko erabilgarria</string>
+    <string name="pref_networks">Sareak</string>
+    <string name="pref_networks_summary">Freskatu AGPS datuak gailua hautatutako sare batera konektatzean</string>
+    <string name="pref_notifications">Jakinarazpenak</string>
+    <string name="pref_notify">GPS atzipen jakinarazpena</string>
+    <string name="pref_notify_summary">Jakinarazi aplikazio batek nire kokapena GPS bidez hartzean</string>
+    <string name="pref_search">GPS bilatze jakinarazpena</string>
+    <string name="pref_search_summary">Jakinarazi aplikazio bat nire kokapenaren bila dabilenean</string>
+    <string name="pref_unit">Erabili unitate metrikoak</string>
+    <string name="pref_unit_summary">Desmarkatuta badago, unitate Inperialak erabiliko dira (sentsoreetan izan ezik)</string>
+    <string name="pref_utc">Bistaratu GPS ordua UTCn</string>
+    <string name="pref_utc_summary">Bistaratu GPS atzipen ordua UTCn tokiko orduan beharrean</string>
+    <string name="pref_wifi">WiFira konektatuta egotean</string>
+    <string name="pref_wifi_sort">Ordenatu WiFi sareak</string>
+    <string name="pref_wifi_summary">Freskatu AGPS datuak nire gailua WiFi sare batera konektatzean</string>
+    <string name="status_agps">AGPS datuen eguneratzea eskatuta – eduki kontuan Androidek ez duela arrakasta edo akatsen berri ematen</string>
+    <string name="status_agps_captive">Ezin dira datuak eguneratu – abiarazi nabigatzailea, launch browser, sartu sarean eta saiatu berriro</string>
+    <string name="status_agps_error">Sarea ez dago eskuragarri, ezin dira AGPS datuak eguneratu</string>
+    <string name="status_already_downloading">Izen bereko mapa bat ari da deskargatzen dagoeneko</string>
+    <string name="status_downloads_completed">Deskarga guztiak bukatu dira</string>
+    <string name="status_folder_empty">Karpeta hutsik dago</string>
+    <string name="status_map_purged">Maparen lauza-cachea garbitu da</string>
+    <string name="status_perm_location">Ez da kokapen- edo sare-informaziorik erakutsiko gailuaren kokapena atzitzeko baimena eman ezean</string>
+    <string name="status_perm_map_download">Lineaz kanpoko mapak deskargatzeko fitxategiak atzitzeko baimena eman behar duzu</string>
+    <string name="status_perm_offline_map">Lineaz kanpoko mapak erabiltzeko fitxategiak atzitzeko baimena eman behar duzu</string>
+    <string name="status_perm_refresh_agps">AGPS datuak freskatzeko gailuaren kokapena atzitzeko baimena eman behar duzu</string>
+    <string name="title_activity_about">Honi buruz</string>
+    <string name="title_activity_legend">Legenda</string>
+    <string name="title_activity_map_download">Deskargatu lineaz kanpoko mapa</string>
+    <string name="title_activity_settings">Ezarpenak</string>
+    <string name="title_gps_acc">Errorea</string>
+    <string name="title_gps_alt">Altitudea</string>
+    <string name="title_gps_bear">Norabidea</string>
+    <string name="title_gps_coord">Koordenatuak</string>
+    <string name="title_gps_decl">Dekl.</string>
+    <string name="title_gps_lat">Latitudea</string>
+    <string name="title_gps_lon">Longitudea</string>
+    <string name="title_gps_orient">Orientazioa</string>
+    <string name="title_gps_sats">Sateliteak</string>
+    <string name="title_gps_speed">Abiadura</string>
+    <string name="title_gps_time">Atzitutako azken kokalekua</string>
+    <string name="title_gps_ttff">TTFF (s)</string>
+    <string name="title_legend_gps">GPS</string>
+    <string name="title_legend_gps_unused">Atzipenean erabili gabeko satelitea</string>
+    <string name="title_legend_gps_used">Atzipenean erabilitako satelitea</string>
+    <string name="title_legend_map">Mapa</string>
+    <string name="title_legend_map_prov">%s hornitzailearen kokapena</string>
+    <string name="title_legend_map_stale">Edozein hornitzaileren kokapen zaharkitua</string>
+    <string name="title_legend_radio">Sarea</string>
+    <string name="title_legend_radio_2g">2G zelula</string>
+    <string name="title_legend_radio_3g">3G zelula</string>
+    <string name="title_legend_radio_4g">4G zelula</string>
+    <string name="title_legend_radio_adhoc">Ad hoc WiFia</string>
+    <string name="title_legend_radio_eap">WPA-EAP segurtasuna (enpresak)</string>
+    <string name="title_legend_radio_open">WiFi irekia</string>
+    <string name="title_legend_radio_psk">WPA-PSK segurtasuna (pertsonala)</string>
+    <string name="title_legend_radio_unknown">WiFi mota ezezaguna</string>
+    <string name="title_legend_radio_wep">WEP segurtasuna</string>
+    <string name="title_legend_sensors">Sentsoreak</string>
+    <string name="title_legend_sensors_high">Zehaztasun handia</string>
+    <string name="title_legend_sensors_low">Zehaztasun txikia</string>
+    <string name="title_legend_sensors_medium">Zehaztasun ertaina</string>
+    <string name="title_legend_sensors_unreliable">Ez-fidagarria</string>
+    <string name="title_nmea_001_032">GPS</string>
+    <string name="title_nmea_033_054">SBAS</string>
+    <string name="title_nmea_055_064">55–64</string>
+    <string name="title_nmea_065_088">GLONASS</string>
+    <string name="title_nmea_097_192">97–192</string>
+    <string name="title_nmea_193_195">QZSS</string>
+    <string name="title_nmea_201_235">Beidou</string>
+    <string name="title_nmea_236_300">236–300</string>
+    <string name="title_nmea_301_336">Galileo</string>
+    <string name="title_radio_asu">ASU</string>
+    <string name="title_radio_bsid">BSID</string>
+    <string name="title_radio_cdma">CDMA</string>
+    <string name="title_radio_cellid">Gailuaren IDa</string>
+    <string name="title_radio_channel">Ch</string>
+    <string name="title_radio_gsm">GSM</string>
+    <string name="title_radio_lac">LAC</string>
+    <string name="title_radio_level">dBm</string>
+    <string name="title_radio_lte">LTE</string>
+    <string name="title_radio_mac">BSSID (MAC)</string>
+    <string name="title_radio_mcc">MCC</string>
+    <string name="title_radio_mnc">MNC</string>
+    <string name="title_radio_nid">NID</string>
+    <string name="title_radio_pci">PCI</string>
+    <string name="title_radio_psc">PSC</string>
+    <string name="title_radio_sid">SID</string>
+    <string name="title_radio_tac">TAC</string>
+    <string name="title_radio_wifi">WiFi</string>
+    <string name="title_section1">GPS</string>
+    <string name="title_section2">Sentsoreak</string>
+    <string name="title_section3">Sarea</string>
+    <string name="title_section4">Map</string>
+    <string name="title_sensor_acc">Azelerazioa eta grabitatea</string>
+    <string name="title_sensor_mag">Eremu magnetikoa</string>
+    <string name="title_sensor_met">Meteorologia</string>
+    <string name="title_sensor_misc">Askotarikoak</string>
+    <string name="title_sensor_or">Orientazioa</string>
+    <string name="title_sensor_rot">Errotazioa</string>
+    <string name="title_sensors_accTotal">Σg (m/s²)</string>
+    <string name="title_sensors_accX">gx (m/s²)</string>
+    <string name="title_sensors_accY">gy (m/s²)</string>
+    <string name="title_sensors_accZ">gz (m/s²)</string>
+    <string name="title_sensors_light"> lux</string>
+    <string name="title_sensors_magTotal">ΣB (µT)</string>
+    <string name="title_sensors_magX">Bx (µT)</string>
+    <string name="title_sensors_magY">By (µT)</string>
+    <string name="title_sensors_magZ">Bz (µT)</string>
+    <string name="title_sensors_metHumid">Hezetasun erlatiboa (%)</string>
+    <string name="title_sensors_metPressure"> hPa</string>
+    <string name="title_sensors_metTemp"> °C</string>
+    <string name="title_sensors_orAziText">Orientazioa</string>
+    <string name="title_sensors_orAzimuth">Azimut</string>
+    <string name="title_sensors_orPitch">Buruzka</string>
+    <string name="title_sensors_orRoll">Kopadura</string>
+    <string name="title_sensors_proximity">Hurbiltasuna (cm)</string>
+    <string name="title_sensors_rotTotal">Σω (rad/s)</string>
+    <string name="title_sensors_rotX">ωx (rad/s)</string>
+    <string name="title_sensors_rotY">ωy (rad/s)</string>
+    <string name="title_sensors_rotZ">ωz (rad/s)</string>
+    <string name="unit_degree">°</string>
+    <string name="unit_feet"> ft</string>
+    <string name="unit_km_h"> km/h</string>
+    <string name="unit_kn"> kn</string>
+    <string name="unit_meter"> m</string>
+    <string name="unit_mph"> m/h</string>
+    <string name="utm_outside_latitude_range">Kokapena UTM barrutitik kanpo</string>
+    <string name="value_E">E</string>
+    <string name="value_ENE">EIE</string>
+    <string name="value_ESE">EHE</string>
+    <string name="value_N">I</string>
+    <string name="value_NE">IE</string>
+    <string name="value_NNE">IIE</string>
+    <string name="value_NNW">IIM</string>
+    <string name="value_NW">IM</string>
+    <string name="value_S">H</string>
+    <string name="value_SE">HE</string>
+    <string name="value_SSE">HHE</string>
+    <string name="value_SSW">HHM</string>
+    <string name="value_SW">HM</string>
+    <string name="value_W">M</string>
+    <string name="value_WNW">MIM</string>
+    <string name="value_WSW">MHM</string>
+    <string name="value_none">–</string>
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   enable-background="new 0 0 24 24"
+   height="24px"
+   viewBox="0 0 24 24"
+   width="24px"
+   fill="#FFFFFF"
+   version="1.1"
+   id="svg24"
+   sodipodi:docname="ic_content_cell_serving.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs28" />
+  <sodipodi:namedview
+     id="namedview26"
+     pagecolor="#000000"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="29.958333"
+     inkscape:cx="5.2072323"
+     inkscape:cy="12"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="0"
+     inkscape:window-y="28"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g22" />
+  <g
+     id="g4">
+    <rect
+       fill="none"
+       height="24"
+       width="24"
+       id="rect2" />
+  </g>
+  <g
+     id="g22">
+    <polygon
+       points="10.21,15 13.79,15 15.59,12 13.79,9 10.21,9 8.41,12 "
+       id="polygon8" />
+    <g
+       id="g103"
+       style="opacity:0.3">
+      <polygon
+         points="13.79,2 10.21,2 8.41,5 10.21,8 13.79,8 15.59,5 "
+         id="polygon6" />
+      <polygon
+         points="21.83,8.51 20.04,5.51 16.45,5.51 14.65,8.51 16.45,11.51 20.04,11.51 "
+         id="polygon10" />
+      <polygon
+         points="14.65,15.51 16.45,18.51 20.04,18.51 21.83,15.51 20.04,12.51 16.45,12.51 "
+         id="polygon12" />
+      <polygon
+         points="7.55,5.51 3.96,5.51 2.17,8.51 3.96,11.51 7.55,11.51 9.35,8.51 "
+         id="polygon14" />
+      <polygon
+         points="2.17,15.51 3.96,18.51 7.55,18.51 9.35,15.51 7.55,12.51 3.96,12.51 "
+         id="polygon16" />
+      <polygon
+         points="10.21,22 13.79,22 15.59,19 13.79,16 10.21,16 8.41,19 "
+         id="polygon18" />
+    </g>
+  </g>
+</svg>

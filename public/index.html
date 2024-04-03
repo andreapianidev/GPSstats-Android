@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script src="javascripts/gallery.js"></script>
+    <script type="text/javascript">
+      function init() {
+        images.push({alt:"GPS view in SatStat", src:"screenshots/satstat-gps.png"});
+        images.push({alt:"Sensor view in SatStat", src:"screenshots/satstat-sensors.png"});
+        images.push({alt:"Radio network view in SatStat", src:"screenshots/satstat-radio.png"});
+        images.push({alt:"Map network view in SatStat (offline map)", src:"screenshots/satstat-map.png"});
+        images.push({alt:"Map network view in SatStat (online map)", src:"screenshots/satstat-map2.png"});
+        images.push({alt:"GPS without fix in SatStat", src:"screenshots/satstat-search.png"});
+        images.push({alt:"GPS fix in SatStat", src:"screenshots/satstat-fix.png"});
+        bodyLoad();
+      };
+    </script>
+    <title>SatStat</title>
+  </head>
+
+  <body onLoad="javascript:init();" onResize="javascript:bodyResize();">
+    <div id="slideshow">
+      <div id="slideshow_bg">
+      </div>
+      <div id="slideshow_fg">
+        <div id="slideshow_image">
+          <img id="slideshow_image_obj">
+        </div>
+      </div>
+      <div id="slideshow_prev">
+        <img alt="X" src="images/go-previous.png" onclick="javascript:showPrev();">
+      </div>
+      <div id="slideshow_next">
+        <img alt="X" src="images/go-next.png" onclick="javascript:showNext();">
+      </div>
+      <div id="slideshow_close">
+        <img alt="X" src="images/dialog-close.png" onclick="javascript:closeSlideShow();">
+      </div>
+    </div>
+
+    <div id="container">
+      <div id="header" class="inner">
+        <header>
+          <h1>SatStat</h1>
+          <h2>Android Location, Sensor and Radio Network Status</h2>
+          
+          <section id="fdroid">
+            <a href="https://f-droid.org/repository/browse/?fdid=com.vonglasow.michael.satstat"><img alt="Available on F-Droid" src="images/F-Droid-button_smaller.png"></a>
+          </section>
+        </header>
+
+        <div id="navbar_wrapper">
+          <div id="navbar">
+            <a>Home</a>
+            <a href="about.html">About</a>
+            <a href="https://gitlab.com/mvglasow/satstat/wikis/">Documentation</a>
+            <a href="https://gitlab.com/mvglasow/satstat/issues">Issues</a>
+            <a href="https://gitlab.com/mvglasow/satstat">Code</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="inner">
+        <section id="main_content">
+          <p>Displays GPS position and status, sensor data and networks (cellular and WiFi) in range</p>
+        </section>
+      </div>
+
+      <div class="screenshot_bar">
+        <div class="screenshot_nav_back">
+          <a id="nav_back" onclick="javascript:scrollBack();" class="navbutton"><span></span></a>
+        </div>
+        <div class="screenshot_content">
+          <div class="screenshots">
+            <!-- will be populated at runtime -->
+          </div>
+        </div>
+        <div class="screenshot_nav_forward">
+          <a id="nav_forward" onclick="javascript:scrollForward();" class="navbutton"><span></span></a>
+        </div>
+      </div>
+
+      <div class="inner">
+        <footer>
+          Satstat is maintained by <a href="https://gitlab.com/mvglasow">mvglasow</a><br>
+          This page is hosted by <a href="http://pages.gitlab.com">GitLab Pages</a>. Theme based on Tactile by <a href="https://twitter.com/jasonlong">Jason Long</a>.
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
